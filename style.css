@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("https://images.unsplash.com/photo-1583946193644-49fe1fe958cf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+  }
+  .nav-bar{
+    display: flex;
+    padding: 40px 120px;
+  }
+  .nav-logo img{
+    width: 120px;
+    color: yellow;
+
+  }
+  .nav-link{
+    flex: 1;
+  }
+  .nav-link ul{
+    margin-left: 50px;
+    display: inline;
+  }
+  .nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+  }
+  .nav-link ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .nav-link ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+  }
+  .nav-link ul li:hover::after{
+    width: 100%;
+  }
+  .btn{
+    padding: 10px 20px;
+    border: 0;
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .nav-link .btn{
+    float: right;
+    
+  }
+  .banner-title{
+    margin: 80px 130px;
+    color: black;
+  }
+  .banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    
+  }
+  .banner-title h1 span{
+    color: yellow;
+  }
+  
