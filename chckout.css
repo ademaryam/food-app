@@ -1,0 +1,34 @@
+*{
+  color:black;
+
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1583946193644-49fe1fe958cf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    align-items: center;
+    /* overflow: hidden; */
+  }
+
+  label, input{
+    color: white;
+    display: block;
+    align-items: center;
+  }
+  
+  .div{
+      margin-top: 50px;
+      height:300px ;
+      outline: 1px thin;
+      outline-offset: -.5em; 
+      width:100%;
+      float: left;
+  }
+/* .flex {
+  width:30%;
+  float: inline-start;
+  margin: auto;
+  
+} */
